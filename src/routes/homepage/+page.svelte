@@ -9,7 +9,7 @@
     }
 </script>
 
-<main style="background-color: aqua;">
+<main>
     <h1>CATEGORIES</h1>
     <div id="nytcontent">
         <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
