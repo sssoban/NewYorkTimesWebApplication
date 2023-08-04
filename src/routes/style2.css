@@ -1,0 +1,52 @@
+main{
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 10px;
+}
+
+h1{     
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    color: rgba(3, 3, 3, 0.806);
+    text-decoration-line: overline underline;
+    text-decoration-thickness: 7px;
+    margin-bottom: 1px;
+ }
+
+ #nytlogo{
+    position: absolute;
+    border-style: solid;
+    border-radius: 20px;
+    height: 300px;
+    width: 350px;
+    transition: 1s; 
+    transform: scale(1);     
+    margin-left: 40px;
+    margin-top: 100px;
+ }
+#nytlogo:hover{
+    transform: scale(1.03); 
+}
+
+#nytcontent{
+    position:static;
+}
+
+#moviecontent{
+    position:static;
+    margin-bottom: 100px;
+}
+#movielogo{
+    border-style: solid;
+    border-radius: 20px;
+    height: 300px;
+    width: 350px;
+    transition: 1s; 
+    transform: scale(1); 
+    margin-right: 300px;
+    margin-top: 100px;
+}
+#movielogo:hover{
+    transform: scale(1.03); 
+}
